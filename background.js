@@ -1,6 +1,6 @@
-var parp = function() {
-  var background = chrome.extension.getURL("inception.mp3");
-  var audio = new Audio(background);
+function parp() {
+  const background = chrome.extension.getURL('x-files.mp3');
+  const audio = new Audio(background);
 
   audio.play();
   return audio;
